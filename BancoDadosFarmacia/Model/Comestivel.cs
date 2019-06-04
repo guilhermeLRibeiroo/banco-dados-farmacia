@@ -8,7 +8,7 @@ namespace Model
 {
     public class Comestivel
     {
-        public int ID, Quantidade;
+        public int Id, Quantidade;
         public string Nome, Marca;
         public decimal Valor;
         public DateTime Vencimento; 
