@@ -16,3 +16,6 @@ C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\Vi
 C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.exe
 C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.pdb
 C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.ProdutosComestiveisEditar.resources
+C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.ProdutosHigienicosCadastro.resources
+C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.ProdutosHigienicosLista.resources
+C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.ProdutosHigienicosEditar.resources

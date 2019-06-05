@@ -22,5 +22,11 @@ namespace View
             ProdutosComestiveisLista form = new ProdutosComestiveisLista();
             form.ShowDialog();
         }
+
+        private void btnProdutosHigienicos_Click(object sender, EventArgs e)
+        {
+            ProdutosHigienicosLista form = new ProdutosHigienicosLista();
+            form.ShowDialog();
+        }
     }
 }

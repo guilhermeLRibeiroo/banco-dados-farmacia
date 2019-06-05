@@ -70,6 +70,24 @@
     <Compile Include="ProdutosComestiveisLista.Designer.cs">
       <DependentUpon>ProdutosComestiveisLista.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProdutosHigienicosCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProdutosHigienicosCadastro.Designer.cs">
+      <DependentUpon>ProdutosHigienicosCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutosHigienicosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProdutosHigienicosEditar.Designer.cs">
+      <DependentUpon>ProdutosHigienicosEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProdutosHigienicosLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProdutosHigienicosLista.Designer.cs">
+      <DependentUpon>ProdutosHigienicosLista.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Principal.resx">
@@ -83,6 +101,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ProdutosComestiveisLista.resx">
       <DependentUpon>ProdutosComestiveisLista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProdutosHigienicosCadastro.resx">
+      <DependentUpon>ProdutosHigienicosCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProdutosHigienicosEditar.resx">
+      <DependentUpon>ProdutosHigienicosEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProdutosHigienicosLista.resx">
+      <DependentUpon>ProdutosHigienicosLista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
