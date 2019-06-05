@@ -24,11 +24,12 @@ namespace Repository
             comando.CommandText = @"INSERT INTO produtos_comestiveis
 (quantidade, nome, marca, valor, data_vencimento) 
 VALUES(@QUANTIDADE, @NOME, @MARCA, @VALOR, @DATA_VENCIMENTO)";
+
             comando.Parameters.AddWithValue("@QUANTIDADE", comestivel.Quantidade);
             comando.Parameters.AddWithValue("@NOME", comestivel.Nome);
             comando.Parameters.AddWithValue("@MARCA", comestivel.Marca);
             comando.Parameters.AddWithValue("@VALOR", comestivel.Valor);
-            comando.Parameters.AddWithValue("@DATA_VENCIMENTO", Convert.ToDateTime(comestivel.Vencimento.ToString("yyyy-MM-dd")));
+            comando.Parameters.AddWithValue("@DATA_VENCIMENTO", comestivel.Vencimento.ToString("yyyy-MM-dd"));
             comando.ExecuteNonQuery();
             conexao.Close();
         }
@@ -41,20 +42,22 @@ VALUES(@QUANTIDADE, @NOME, @MARCA, @VALOR, @DATA_VENCIMENTO)";
 
             SqlCommand comando = new SqlCommand();
             comando.Connection = conexao;
+
             comando.CommandText = @"UPDATE produtos_comestiveis SET
 nome = @NOME,
 quantidade = @QUANTIDADE,
 marca = @MARCA,
 valor = @VALOR,
 data_vencimento = @DATA_VENCIMENTO
-WHERE id = @ID
-";
+WHERE id = @ID";
+
             comando.Parameters.AddWithValue("@NOME", comestivel.Nome);
             comando.Parameters.AddWithValue("@QUANTIDADE", comestivel.Quantidade);
             comando.Parameters.AddWithValue("@MARCA", comestivel.Marca);
             comando.Parameters.AddWithValue("@VALOR", comestivel.Valor);
-            comando.Parameters.AddWithValue("@DATA_VENCIMENTO", comestivel.Vencimento);
+            comando.Parameters.AddWithValue("@DATA_VENCIMENTO", comestivel.Vencimento.ToString("yyyy-MM-dd"));
             comando.Parameters.AddWithValue("@ID", comestivel.Id);
+
             comando.ExecuteNonQuery();
             conexao.Close();
         }
