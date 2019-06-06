@@ -44,6 +44,7 @@
     <Compile Include="Comestivel.cs" />
     <Compile Include="ProdutoHigienico.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Remedio.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

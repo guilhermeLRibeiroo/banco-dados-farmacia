@@ -31,7 +31,8 @@ namespace View
 
         private void btnRemedios_Click(object sender, EventArgs e)
         {
-
+            RemediosLista form = new RemediosLista();
+            form.ShowDialog();
         }
     }
 }

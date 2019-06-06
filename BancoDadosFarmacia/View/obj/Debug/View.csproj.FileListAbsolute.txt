@@ -19,3 +19,6 @@ C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\Vi
 C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.ProdutosHigienicosCadastro.resources
 C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.ProdutosHigienicosLista.resources
 C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.ProdutosHigienicosEditar.resources
+C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.RemediosLista.resources
+C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.RemediosCadastro.resources
+C:\Users\65975\Desktop\banco-dados-farmacia\BancoDadosFarmacia\View\obj\Debug\View.RemediosEditar.resources

@@ -90,6 +90,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemediosCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemediosCadastro.Designer.cs">
+      <DependentUpon>RemediosCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemediosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemediosEditar.Designer.cs">
+      <DependentUpon>RemediosEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RemediosLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RemediosLista.Designer.cs">
+      <DependentUpon>RemediosLista.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +138,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RemediosCadastro.resx">
+      <DependentUpon>RemediosCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemediosEditar.resx">
+      <DependentUpon>RemediosEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RemediosLista.resx">
+      <DependentUpon>RemediosLista.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
