@@ -30,6 +30,7 @@
         {
             this.btnProdutosComestiveis = new System.Windows.Forms.Button();
             this.btnProdutosHigienicos = new System.Windows.Forms.Button();
+            this.btnRemedios = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnProdutosComestiveis
@@ -54,11 +55,23 @@
             this.btnProdutosHigienicos.UseVisualStyleBackColor = true;
             this.btnProdutosHigienicos.Click += new System.EventHandler(this.btnProdutosHigienicos_Click);
             // 
+            // btnRemedios
+            // 
+            this.btnRemedios.Font = new System.Drawing.Font("Yu Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRemedios.Location = new System.Drawing.Point(414, 12);
+            this.btnRemedios.Name = "btnRemedios";
+            this.btnRemedios.Size = new System.Drawing.Size(195, 116);
+            this.btnRemedios.TabIndex = 2;
+            this.btnRemedios.Text = "Remedios";
+            this.btnRemedios.UseVisualStyleBackColor = true;
+            this.btnRemedios.Click += new System.EventHandler(this.btnRemedios_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRemedios);
             this.Controls.Add(this.btnProdutosHigienicos);
             this.Controls.Add(this.btnProdutosComestiveis);
             this.Name = "Principal";
@@ -72,5 +85,6 @@
 
         private System.Windows.Forms.Button btnProdutosComestiveis;
         private System.Windows.Forms.Button btnProdutosHigienicos;
+        private System.Windows.Forms.Button btnRemedios;
     }
 }
